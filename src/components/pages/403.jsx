@@ -5,7 +5,7 @@ import "../../styles/403.css";
 export const UnauthorizedPage = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    setTimeout(() => navigate("/signup"), 3000);
+    setTimeout(() => navigate("/signup"), 2000);
   });
   return (
     <div className="text-wrapper">

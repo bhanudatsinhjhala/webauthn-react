@@ -30,8 +30,8 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://webauthn.guide/">
+        WebAuthn Guide
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -185,7 +185,7 @@ export default function SignIn() {
                         color="primary"
                       />
                     }
-                    label="Login with web-authn"
+                    label="Login with your device credentials"
                   />
                 </FormControl>
               )}
@@ -200,7 +200,7 @@ export default function SignIn() {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="/signin" variant="body2">
+                <Link href="/signup" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>

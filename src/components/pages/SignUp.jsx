@@ -167,7 +167,7 @@ export default function SignUp() {
                         color="primary"
                       />
                     }
-                    label="Register also with Webauthn"
+                    label="Register also with your device credentials"
                   />
                 </FormControl>
               )}
@@ -208,8 +208,8 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://webauthn.guide/">
+        WebAuthn guide
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
