@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "../../styles/404.css";
 
 export default function Error() {
   const navigate = useNavigate();

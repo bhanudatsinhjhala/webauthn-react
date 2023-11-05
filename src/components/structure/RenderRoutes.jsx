@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { AuthData } from "../../auth/AuthWrapper";
 import { nav } from "./navigation";
-import Error from "../pages/404";
 import { UnauthorizedPage } from "../pages/403";
 
 export const RenderRoutes = () => {
@@ -26,7 +25,7 @@ export const RenderRoutes = () => {
             />
           );
         }
-        return <Route key={index} path={route.path} element={<Error />} />;
+        return <Route key={index} path={route.path} element={route.element} />;
       })}
     </Routes>
   );

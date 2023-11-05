@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "../../styles/403.css";
 
 export const UnauthorizedPage = () => {
   const navigate = useNavigate();
